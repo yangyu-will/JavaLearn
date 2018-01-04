@@ -1,0 +1,8 @@
+@Component等Stereotype的基础
+@Component，@Controller，@Repository，@Service
+这四个都在org.springframework.stereotype包下面，后面3个都属于@Component。
+可以理解为@Component是@Controller，@Repository，@Service的基类。
+@Component是用来标记任何被Spring管理的组件。
+@Controller用来标记presentation层（比如web controller）。 
+@Repository用来标记persistence层（比如DAO）。实体类
+@Service用来标记service层。
